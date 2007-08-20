@@ -17,7 +17,8 @@ BuildArch:	noarch
 Requires:	pygtk2.0 pygtk2.0-libglade
 Requires:	gnome-python gnome-python-gconf gnome-python-applet
 Requires:	gnome-python-gnomevfs
-Prereq:		GConf2
+Requires(post):		GConf2
+Requires(postun):		GConf2
 
 %define python_sitepkgsdir %(echo `python -c "import sys; print (sys.prefix + '/%{_lib}/python' + sys.version[:3] + '/site-packages/')"`)
 
