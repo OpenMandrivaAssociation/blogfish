@@ -11,6 +11,7 @@ Source:		http://prdownloads.sourceforge.net/blogfish/%{name}-%{version}.tar.bz2
 URL:		http://blogfish.sourceforge.net/
 License:	GPL
 Group:		Graphical desktop/GNOME
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildArch:	noarch
 
 Requires:	pygtk2.0 pygtk2.0-libglade
