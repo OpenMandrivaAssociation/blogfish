@@ -1,6 +1,6 @@
 %define name	blogfish
 %define version	1.0
-%define release %mkrel 7
+%define release %mkrel 8
 
 Name: 	 	%{name}
 Summary: 	Evolutionary meme spreader from the GNOME panel
