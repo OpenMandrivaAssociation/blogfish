@@ -65,3 +65,45 @@ rm -rf $RPM_BUILD_ROOT
 %{_sysconfdir}/gconf/schemas/*
 
 
+
+
+%changelog
+* Sat Nov 06 2010 Jani Välimaa <wally@mandriva.org> 1.0-9mdv2011.0
++ Revision: 594295
+- rebuild for python 2.7
+
+* Thu Sep 10 2009 Thierry Vignaud <tv@mandriva.org> 1.0-8mdv2010.0
++ Revision: 436827
+- rebuild
+
+* Fri Jan 02 2009 Funda Wang <fwang@mandriva.org> 1.0-7mdv2009.1
++ Revision: 323366
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 1.0-6mdv2009.0
++ Revision: 243353
+- rebuild
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 1.0-4mdv2008.1
++ Revision: 135856
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - convert prereq
+
+
+* Wed Dec 13 2006 Nicolas Lécureuil <neoclust@mandriva.org> 1.0-4mdv2007.0
++ Revision: 96491
+- Rebuild against new python
+- Import blogfish
+
+* Fri Jun 10 2005 Austin Acton <austin@mandriva.org> 1.0-3mdk
+- requires gnome-python-gnomevfs (Eskild Hustvedt)
+
+* Thu Jun 09 2005 Austin Acton <austin@mandriva.org> 1.0-2mdk
+- whoops, can run without panel
+
+* Thu Jun 09 2005 Austin Acton <austin@mandriva.org> 1.0-1mdk
+- initial package
+
