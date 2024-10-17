@@ -8,7 +8,7 @@ Version: 	%{version}
 Release: 	%{release}
 
 Source:		http://prdownloads.sourceforge.net/blogfish/%{name}-%{version}.tar.bz2
-URL:		http://blogfish.sourceforge.net/
+URL:		https://blogfish.sourceforge.net/
 License:	GPL
 Group:		Graphical desktop/GNOME
 BuildRoot:	%{_tmppath}/%{name}-buildroot
